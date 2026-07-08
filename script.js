@@ -26,25 +26,35 @@ const services = [
     {
         name: "Dry Cleaning",
         price: 200,
-        image: "https://cdn-icons-png.flaticon.com/512/1046/1046857.png"
+        image: "./Images/Dry Cleaning.png"
     },
 
     {
-        name: "Wash & Fold",
+        name: "Leather & Suede Cleaning",
         price: 150,
-        image: "https://cdn-icons-png.flaticon.com/512/3082/3082037.png"
+        image: "./Images/Leather and suits.png"
     },
 
     {
         name: "Steam Iron",
-        price: 100,
-        image: "https://cdn-icons-png.flaticon.com/512/3081/3081559.png"
+        price: 30,
+        image: "./Images/Iron.png"
     },
 
     {
-        name: "Premium Laundry",
-        price: 350,
-        image: "https://cdn-icons-png.flaticon.com/512/2965/2965567.png"
-    }
+        name: "Weading Dress Cleaning",
+        price: 2400,
+        image: "./Images/Wedding.png"
+    },
 
+    {
+        name: "Wash And Folds",
+        price: 140,
+        image: "./Images/Wash and Folds.png"
+    },
+    {
+        name: "Stain Removal",
+        price: 500,
+        image: "./Images/stain remove.png"
+    }
 ];
