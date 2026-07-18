@@ -20,42 +20,7 @@ formBtn.addEventListener("click", () => {
   }
 });
 
-const services = [
-  {
-    name: "Dry Cleaning",
-    price: 200,
-    image: "./Images/Dry Cleaning.jpg",
-  },
 
-  {
-    name: "Leather & Suede Cleaning",
-    price: 150,
-    image: "./Images/Leather and suits.jpg",
-  },
-
-  {
-    name: "Steam Iron",
-    price: 30,
-    image: "./Images/Iron.jpg",
-  },
-
-  {
-    name: "Weading Dress Cleaning",
-    price: 2400,
-    image: "./Images/Wedding.jpg",
-  },
-
-  {
-    name: "Wash And Folds",
-    price: 140,
-    image: "./Images/Wash and Folds.jpg",
-  },
-  {
-    name: "Stain Removal",
-    price: 500,
-    image: "./Images/stain remove.png",
-  }
-];
 const serviceImage = document.getElementById("serviceImage");
 const serviceName = document.getElementById("serviceName");
 const servicePrice = document.getElementById("servicePrice");
@@ -78,7 +43,7 @@ skipBtn.addEventListener("click", function () {
    if (serviceCounter >= services.length) {
         serviceCounter = 0;
     }
-    
+
   displayImages(serviceCounter);
 });
 
