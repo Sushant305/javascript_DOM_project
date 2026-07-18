@@ -53,7 +53,7 @@ const services = [
   {
     name: "Stain Removal",
     price: 500,
-    image: "./Images/stain remove.png",
+    image: "./Images/stain remove.jpg",
   }
 ];
 
