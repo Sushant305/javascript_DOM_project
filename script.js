@@ -56,6 +56,8 @@ const services = [
     image: "./Images/stain remove.png",
   }
 ];
+
+
 const serviceImage = document.getElementById("serviceImage");
 const serviceName = document.getElementById("serviceName");
 const servicePrice = document.getElementById("servicePrice");
