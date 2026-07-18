@@ -74,9 +74,11 @@ const skipBtn = document.getElementById("skipBtn");
 
 skipBtn.addEventListener("click", function () {
   serviceCounter++;
+
    if (serviceCounter >= services.length) {
         serviceCounter = 0;
     }
+    
   displayImages(serviceCounter);
 });
 
@@ -90,7 +92,6 @@ const total = document.getElementById("total");
 
 addBtn.addEventListener("click", function () {
   const currentServices = services[serviceCounter];
-
 
   const row = document.createElement("tr");
 
