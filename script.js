@@ -24,31 +24,31 @@ const services = [
   {
     name: "Dry Cleaning",
     price: 200,
-    image: "./Images/Dry Cleaning.png",
+    image: "./Images/Dry Cleaning.jpg",
   },
 
   {
     name: "Leather & Suede Cleaning",
     price: 150,
-    image: "./Images/Leather and suits.png",
+    image: "./Images/Leather and suits.jpg",
   },
 
   {
     name: "Steam Iron",
     price: 30,
-    image: "./Images/Iron.png",
+    image: "./Images/Iron.jpg",
   },
 
   {
     name: "Weading Dress Cleaning",
     price: 2400,
-    image: "./Images/Wedding.png",
+    image: "./Images/Wedding.jpg",
   },
 
   {
     name: "Wash And Folds",
     price: 140,
-    image: "./Images/Wash and Folds.png",
+    image: "./Images/Wash and Folds.jpg",
   },
   {
     name: "Stain Removal",
@@ -58,7 +58,7 @@ const services = [
   {
     name: "",
     price: 500,
-    image: "./Images/stain remove.png",
+    image: "./Images/stain remove.jpg",
   },
 ];
 const serviceImage = document.getElementById("serviceImage");
@@ -108,5 +108,5 @@ addBtn.addEventListener("click", function () {
   const totalAmount = cart.reduce((sum, items) => {
     return sum + items.price;
   }, 0);
-  total.innerText = totalAmount;
+  total.innerText = totalAmount
 });
