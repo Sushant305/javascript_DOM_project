@@ -54,12 +54,7 @@ const services = [
     name: "Stain Removal",
     price: 500,
     image: "./Images/stain remove.png",
-  },
-  {
-    name: "",
-    price: 500,
-    image: "./Images/stain remove.jpg",
-  },
+  }
 ];
 const serviceImage = document.getElementById("serviceImage");
 const serviceName = document.getElementById("serviceName");
@@ -79,7 +74,9 @@ const skipBtn = document.getElementById("skipBtn");
 
 skipBtn.addEventListener("click", function () {
   serviceCounter++;
-
+   if (serviceCounter >= services.length) {
+        serviceCounter = 0;
+    }
   displayImages(serviceCounter);
 });
 
@@ -93,6 +90,7 @@ const total = document.getElementById("total");
 
 addBtn.addEventListener("click", function () {
   const currentServices = services[serviceCounter];
+
 
   const row = document.createElement("tr");
 
